@@ -1,5 +1,7 @@
-.container {
+.flex-container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -38,4 +40,15 @@ section {
     align-items: center;
     justify-content: center;
     padding: auto;
+}
+@media only screen and (min-width: 768px) {
+    img {
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    img {
+        width: 300px;
+    }
 }
