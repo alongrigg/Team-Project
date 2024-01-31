@@ -14,13 +14,13 @@ h1 {
     color: white;
     text-align: center;
     border: none;
-    padding: none;
+    padding: 20px;
 }
 
 h2 {
-    border: none;
+    border: 25px;
     font-size: 15px;
-    background-color: lightgray;
+    color: lightgray;
     padding: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
